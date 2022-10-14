@@ -8,7 +8,10 @@ import { MatButtonModule } from '@angular/material/button'
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar'
+import { MatIconModule } from '@angular/material/icon'
+import {MatListModule} from '@angular/material/list';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -46,7 +49,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     MatCheckboxModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
